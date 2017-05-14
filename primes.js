@@ -25,4 +25,8 @@ function isPrime(arr, int) {
   return prime
 }
 
-countPrimesTo(50)
+countPrimesTo(500)
+
+module.exports = {
+  countPrimesTo
+}

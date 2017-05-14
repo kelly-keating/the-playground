@@ -1,0 +1,26 @@
+{
+  "name": "the-playground",
+  "version": "1.0.0",
+  "description": "Some fun coding tasks",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tape tests/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelly-keating/the-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelly-keating/the-playground/issues"
+  },
+  "homepage": "https://github.com/kelly-keating/the-playground#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "tape": "^4.6.3"
+  }
+}
